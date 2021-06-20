@@ -26,10 +26,6 @@ function discountF(){
    }
 }
 
-function sayHello(){
-   console.log("Hola mundo")
-}
-
 range.addEventListener('change', (e) =>{
    changePrice();
    discountF();
