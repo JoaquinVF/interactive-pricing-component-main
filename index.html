@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <img class="background" src="./images/bg-pattern.svg" alt="">
+  <img src="./images/pattern-circles.svg" class="circles" alt="">
+  <main>
+    <div class="description-container">
+      <h2>
+        Simple, traffic-based pricing
+      </h2>
+      <h4>
+        Sign-up for our 30-day trial. No credit card required.
+      </h4>
+    </div>
+    <div class="container">
+      <div class="price-box">
+        <p class="pageviews">
+          Pageviews
+        </p>
+        <div class="slidecontainer">
+          <input type="range" min="0" max="100" step="1" value="50" class="slider" id="myRange">
+        </div>
+        <h2>
+          $ /month
+        </h2>
+        <div class="monthly-container">
+          <p class="monthly">
+            Monthly Billing
+          </p>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+          </div>
+          <p class="monthly"> Yearly Billing </p>
+          <span class="porcent">-25%</span>
+
+        </div>
+      </div>
+      <div class="benefit">
+        <img src="./images/icon-check.svg"> Unlimited websites
+        <br>
+        <img src="./images/icon-check.svg"> 100% data ownership
+        <br>
+        <img src="./images/icon-check.svg"> Email reports
+        <br>
+        <br>
+        <button>Start my trial</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Joaquin Villanueva</a>.
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
