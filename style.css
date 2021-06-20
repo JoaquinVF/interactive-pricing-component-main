@@ -37,14 +37,15 @@ main{
 }
 h2{
   color: hsl(227, 35%, 25%);
-  margin-bottom: 30px;
+  margin-bottom: 10px !important;
 }
 h4{
-    margin: -10px 0 50px 0;
+    margin: 0px 0 50px 0 !important;
     color: hsl(225, 20%, 60%);
     width: 60vw;
     font-weight: 600;
     font-size: 1rem !important;
+    line-height: 1.5rem !important;
 }
 .container{
     padding: 20px;
@@ -104,6 +105,7 @@ h4{
 .monthly{
   font-size: 0.8rem !important;
   margin: 0 7px !important;
+  color: hsl(225, 20%, 60%);
 }
 .form-check{
   display: flex !important;
@@ -128,9 +130,13 @@ h4{
 .form-switch .form-check-input {
   margin-left: 0 !important;
 }
+.month{
+  font-size: 1rem;
+  color: hsl(225, 20%, 60%);
+}
 .porcent{
   color: hsl(15, 100%, 70%);
-  background-color: hsla(15, 100%, 70%, 0.116);
+  background-color: hsl(14, 92%, 95%);
   border-radius: 10px;
   padding: 1px 9px;
   font-size: 0.8rem !important;
@@ -138,6 +144,7 @@ h4{
 .benefit{
   font-size: 0.8rem;
   padding: 20px 50px;
+  color: hsl(225, 20%, 60%);
   border-top: 1px solid hsla(225, 20%, 60%, 0.11);
   line-height: 1.5rem;
 }
